@@ -135,7 +135,7 @@ const Signup = () => {
                     placeholder="John Doe"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
-                    autoComplete="name"
+                    autoComplete="off"
                   />
                 </div>
               </div>
@@ -153,7 +153,7 @@ const Signup = () => {
                     placeholder="you@example.com"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    autoComplete="email"
+                    autoComplete="off"
                   />
                 </div>
               </div>
@@ -171,7 +171,7 @@ const Signup = () => {
                     placeholder="Min 6 characters"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                    autoComplete="new-password"
+                    autoComplete="off"
                   />
                 </div>
               </div>
@@ -189,7 +189,7 @@ const Signup = () => {
                     placeholder="Repeat password"
                     value={confirmPassword}
                     onChange={(e) => setConfirmPassword(e.target.value)}
-                    autoComplete="new-password"
+                    autoComplete="off"
                   />
                 </div>
               </div>
