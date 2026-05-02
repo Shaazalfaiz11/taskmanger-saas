@@ -8,7 +8,7 @@ services:
     startCommand: npm start
     envVars:
       - key: DATABASE_URL
-        value: postgresql://neondb_owner:npg_XG5v4pPjAozU@ep-icy-mouse-a80u5k37-pooler.eastus2.azure.neon.tech/neondb?sslmode=require
+        value: postgresql://neondb_owner:npg_P3sDibBZXkq9@ep-spring-dew-ao47gwdp.c-2.ap-southeast-1.aws.neon.tech/neondb?sslmode=require
       - key: JWT_SECRET
         generateValue: true
       - key: NODE_ENV
